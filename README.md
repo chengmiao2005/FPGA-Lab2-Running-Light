@@ -1,4 +1,8 @@
-# Four-LED Running Light
+# FPGA Lab 2.2 — Four-LED Running Light
+
+**Verilog · LED Control · Counters · One-Hot Rotation**
+
+Former repository name: `FPGA2-2`.
 
 A counter rotates a one-hot four-bit LED pattern using asynchronous active-high reset. 四位流水灯与分频计数实验。
 
@@ -23,7 +27,6 @@ vvp -n build/led_fast.vvp
 
 The source testbench has no assertions or waveform dump. Use a simulator viewer or add observation signals when investigating rotation timing. No FPGA pin constraints or measured board results are included.
 
-
-[Full project portfolio](https://github.com/chengmiao2005/FPGAfinalproject/blob/main/docs/PORTFOLIO.md) · [Original-to-current file map](docs/FILE_MAP.md)
+[FPGA lab index](https://github.com/chengmiao2005/FPGA-Labs) · [Original-to-current file map](docs/FILE_MAP.md)
 
 [Validation record](docs/VALIDATION.md)
